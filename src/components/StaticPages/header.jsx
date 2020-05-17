@@ -4,8 +4,11 @@ import {Link} from 'react-router-dom'
 
 //TODO: temporary page links
 const pageLinks = [
+ {to: '/tab1', label: 'Tab1'},
+ {to: '/tab2', label: 'Tab2'},
+ {to: '/tab1', label: 'Tab1'},
  {to: '/tab1', label: 'Tab1', icon: 'ion-compose'},
- {to: '/formik4', label: 'Form4', icon: 'ion-gear-a'},
+ {to: '/formik4', label: 'Settings', icon: 'ion-gear-a'},
 ]
 
 const Header = () => {
