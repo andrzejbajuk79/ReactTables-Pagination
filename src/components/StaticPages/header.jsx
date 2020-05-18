@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 const pageLinks = [
  {to: '/tab1', label: 'Tab1'},
  {to: '/tab2', label: 'Tab2'},
- {to: '/tab1', label: 'Tab1'},
+ {to: '/pagination', label: 'PAG'},
  {to: '/tab1', label: 'Tab1', icon: 'ion-compose'},
  {to: '/formik4', label: 'Settings', icon: 'ion-gear-a'},
 ]

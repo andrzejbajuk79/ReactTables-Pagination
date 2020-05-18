@@ -71,7 +71,7 @@ const Tab2 = () => {
    <ReactTable
     defaultPageSize={7}
     columns={columns}
-    showPagination={false}
+    showPagination={true}
     filterable
     noDataText={'Brak wyników'}
     data={posts}
